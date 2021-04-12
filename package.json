@@ -1,0 +1,34 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant website",
+  "main": "index.js",
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harj0891/restaurant-page.git"
+  },
+  "author": "Harj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harj0891/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/harj0891/restaurant-page#readme",
+  "devDependencies": {
+    "npm-watch": "^0.9.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
