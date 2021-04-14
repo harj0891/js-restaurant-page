@@ -1,4 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+
+
 body {
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    
 }
 
+
+.container {
+    background-image: url("../images/restaurant-front.jpg");
+    background-color: rgb(14, 28, 58);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.nav-bar {
+    color: white;
+    background-color: rgba(172, 145, 96, 0.11);
+    border-bottom: solid 2px rgb(172, 145, 96);
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.nav:hover {
+    color:rgb(172, 145, 96);
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 145, 96);
+    transition: 0.5s;
+}
+
+.nav-home, .nav-menu {
+    margin-right: 100px;
+}
+
+
+.footer {
+    color: white;
+    background-color: rgba(172, 145, 96, 0.11);
+    border-top: solid 2px rgb(172, 145, 96);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.cafe-name {
+    color:rgb(172, 145, 96);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 75px;
+    font-weight: lighter;
+    margin-bottom: -70px;
+}
+
+.cafe-subheader {
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 145, 96);
+    margin-bottom: 30px;
+}
+
+.cafe-tagline {
+    color:white;
+    font-size: 17px; 
+}
+
+
+.home-content {
+    padding-top: 250px;
+    margin-bottom: 100px;
+    height:calc(100% - (52px + 250px + 100px));
+}
+
+
+.button-menu {
+    background-color: rgb(172, 145, 96);
+    border:none;
+    margin-top: 40px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+}
+
+
+.menu-content {
+    background-color: rgba(14, 28, 58, 0.863);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width:100%;
+    height:calc(100% - (52px + 50px + 100px));
+    
+}
+
+.about-content {
+    background-color: rgba(14, 28, 58, 0.863);
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width:100%;
+    height:calc(100% - (52px + 50px + 100px));
+    
+}
+.about-paragraph {
+    color:white;
+    font-size: 17px; 
+    width:500px;
+    margin: auto;
+    padding-top: 30px;
+}
