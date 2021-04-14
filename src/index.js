@@ -69,11 +69,3 @@ let DisplayController = (function () {
 (function() {
     DisplayController.displayHome();
 })();
-
-
-
-
-
-
-
-
